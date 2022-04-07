@@ -14,6 +14,10 @@ ACCEL_DLPF_SEL_LEN  = const(3)
 ACCEL_RANGE_SEL_BIT = const(0)
 ACCEL_RANGE_SEL_LEN = const(4)
 
+ACCEL_RATE_SEL_BIT = const(0) #added later 
+ACCEL_RATE_SEL_LEN = const(4) #added later
+
+
 ## Gyroscope Sensitivity Range options
 # see setFullScaleGyroRange()
 GYRO_RANGE_2000     = const(0)    # +/- 2000 degrees/second
